@@ -393,36 +393,18 @@ app.get('/items/delete/:id', (req, res) => {
     });
 });
 
-app.get('/items', (req, res) => {
-  storeService.getAllItems()
-    .then((items) => {
-      res.json(items);
-    })
-    .catch((err) => {
-      res.status(500).json({ message: err });
-    });
-});
-
-app.get('/categories', (req, res) => {
-  storeService.getCategories()
-    .then((categories) => {
-      res.json(categories);
-    })
-    .catch((err) => {
-      res.status(500).json({ message: err });
-    });
-});
 
 app.use((req, res) => {
-  res.status(404).send('Page Not Found');
-});
+  res.status(404).render("404");
+})
 
-storeService.initialize()
+itemData
+  .initialize()
   .then(() => {
-    app.listen(port, () => {
-      console.log(`Server is listening on port ${port}`);
+    app.listen(HTTP_PORT, () => {
+      console.log("server listening on: " + HTTP_PORT);
     });
   })
   .catch((err) => {
-    console.error(`Error initializing store service: ${err}`);
+    console.log(err);
   });
