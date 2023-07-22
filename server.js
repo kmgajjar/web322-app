@@ -11,8 +11,8 @@ the course.
 Name:   keshvi gajjar
 Student ID:   159653203
 Date:  22nd july
-Cyclic Web App URL:  
-GitHub Repository URL:  
+Cyclic Web App URL:  https://magnificent-umbrella-fly.cyclic.app/
+GitHub Repository URL:  https://github.com/kmgajjar/web322-app
 
 ********************************************************************************/
 
