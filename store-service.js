@@ -11,7 +11,7 @@ the course.
 Name:   
 Student ID:   
 Date:  
-Cyclic Web App URL:  
+Cyclic Web App URL:  https://long-ruby-cricket-tux.cyclic.app/
 GitHub Repository URL:  
 
 ********************************************************************************/
