@@ -8,11 +8,11 @@ distributed to other students. I acknoledge that violation of this policy
 to any degree results in a ZERO for this assignment and possible failure of
 the course. 
 
-Name:   
-Student ID:   
-Date:  
+Name:  keshvi munjalkumar gajjar 
+Student ID:  159653203 
+Date: 5th august 
 Cyclic Web App URL:  https://long-ruby-cricket-tux.cyclic.app/
-GitHub Repository URL:  
+GitHub Repository URL:  https://github.com/kmgajjar/web322-app
 
 ********************************************************************************/
 const Sequelize = require('sequelize');
